@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using SalesCore.Models;
+using SalesCore.Models.ViewModels;
 
 namespace SalesCore.Controllers
 {
@@ -18,6 +18,7 @@ namespace SalesCore.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            ViewData["Developer"] = "João Azeredo";
 
             return View();
         }
