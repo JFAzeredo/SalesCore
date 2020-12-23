@@ -5,9 +5,7 @@ namespace SalesCore.Models
     public class SalesCoreContext : DbContext
     {
         public SalesCoreContext (DbContextOptions<SalesCoreContext> options)
-            : base(options)
-        {
-        }
+            : base(options) {}
 
         public DbSet<Department> Department { get; set; }
         public DbSet<Seller> Seller { get; set; }
