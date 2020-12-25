@@ -7,7 +7,7 @@ namespace SalesCore.Data
 {
     public class SeedingService
     {
-        private SalesCoreContext _context;
+        private readonly SalesCoreContext _context;
 
         public SeedingService(SalesCoreContext context)
         {

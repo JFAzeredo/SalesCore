@@ -34,4 +34,12 @@ body {
     .carousel-caption {
         display: none;
     }
+
+.content-control {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+
+
 }
